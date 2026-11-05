@@ -1,10 +1,24 @@
-# Build outputs
-debug/
+# Build directories
 build/
+debug/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.ninja
+
+# Compiled binaries & objects
+*.o
+*.d
 *.elf
 *.bin
-*.o
+*.hex
+*.map
 
-# SDK cache & local tools
-__repo__/
-.mcuxpresso/
+# IDE specific files
+.vscode/
+!.vscode/settings.json
+!.vscode/launch.json
+
+# OS generated files
+Thumbs.db
+.DS_Store
